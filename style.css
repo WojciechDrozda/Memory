@@ -1,0 +1,27 @@
+{
+  box-sizing: border-box;
+}
+ 
+.title {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+}
+.board {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+ 
+.tile {
+  width: 19%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 30px;
+  font-weight: 700;
+  border: 1px #000 solid;
+  background-color: #eee;
+  margin: 1%;
+  float: left;
+  cursor: pointer;
+  padding: 5%;
+}
